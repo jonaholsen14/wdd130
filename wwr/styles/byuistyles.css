@@ -1,0 +1,29 @@
+/* * {
+    border: 2px solid blue;
+} */
+body{
+    margin: 0;
+    /* background-color: black; */
+}
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+a:hover {
+    font-size: 1.5em;
+    background-color: white;
+    color: steelblue;
+}
+main{
+    text-align: center;
+}
+img{
+    width: 45%;
+    /* display: block; Will override text-allign center*/
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
