@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-color: #5ca0d7;
+}
+h1:hover{
+    color: black;
+}
+main{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+p.bold{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+ol{
+    text-align: left;
+    font-weight: bold;
+}
+div.white{
+    color: white;
+}
+h2.white{
+    color: white;
+    width: 55%;
+    margin: 0 auto;
+    font-size: 26px;
+    line-height: 1.5;
+}
+img{
+    width: 30%;
+}
+footer{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    line-height: .5;
+}
