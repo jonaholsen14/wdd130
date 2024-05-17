@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 div#content{
-    max-width: 1600;
+    max-width: 1600px;
     margin: 0 auto;
     text-align: center;
 }
@@ -95,4 +95,8 @@ main.home-grid{
 }
 img.icon{
     width: 80px;
+}
+img.mountains{
+    margin: 0 auto;
+    text-align: left;  
 }
