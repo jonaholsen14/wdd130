@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    background-color: hotpink;
+    font-size: 0;
+}
+img.top_picture {
+    width: 100%;
+}
+section {
+    background-color: rgb(101, 101, 101);
+    text-align: center;
+}
+div img {
+    width: 8%;
+    border-radius: 50%;
+    border: 5px solid black;
+    margin: 30px;
+}
