@@ -6,7 +6,7 @@ body{
 img.top_picture {
     width: 100%;
 }
-section {
+div {
     background-color: rgb(101, 101, 101);
     text-align: center;
 }
