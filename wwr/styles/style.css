@@ -1,14 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
 body{
     margin: 0;
+    font-family: "Nanum Gothic", Arial, serif;
+    font-size: 22px;
+    padding: 0;
+}
+header{
+    background-color: #214E34;
+    width: 100%;
+}
+.logo{
+    width: 10%;
+    height: auto;
+    padding: 10px;
+}
+nav a{
+    padding: 35px;
+}
+#page_links{
+    text-decoration: none;
 }
 div#content{
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;
-}
-nav a{
-    text-align: center;
-    text-decoration: none;
 }
 h1#hero-box{
     text-align: center;
@@ -16,18 +38,34 @@ h1#hero-box{
 h1.button-box{
     text-align: center;
 }
-section.msg{
+.headline{
+    font-family: "Raleway", "Nanum Gothic", Arial, serif;
+    margin-top: 10px;
+}
+h2{
+    margin: 0;
     text-align: center;
-    background-color: #5e9b78;
+    padding: 12px;
 }
 h2.msg{
     color: #011638;
 }
+section.msg{
+    text-align: center;
+    background-color: #5e9b78;
+}
 p.msg{
     color: #011638;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.msg{
+    line-height: 1.5em;
+    padding: 35px;
 }
 h4{
     color: #CDCDCD;
+    font-size: .9em;
 }
 h4#hero-box{
     text-align: center;
@@ -42,9 +80,6 @@ div#background{
 body{
     background-color: #CDCDCD;
 }
-header{
-    background-color: #214E34;
-}
 nav a{
     color: black;
 }
@@ -55,7 +90,13 @@ nav a:hover{
 a.book{
     background-color: #364156;
     color: #CDCDCD;
+}
+.book, .join{
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 a.book:hover{
     background-color: #011638;
@@ -63,7 +104,6 @@ a.book:hover{
 a.join{
     background-color: #5e9b78;
     color: #011638;
-    text-decoration: none;
 }
 a.join:hover{
     background-color: #011638;
@@ -72,9 +112,17 @@ a.join:hover{
 section#hero-msg{
     background-color: #364156;
 }
+.river-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+} 
+.card-img{
+    border: 10px solid #011638;
+}
 footer{
     background-color: #214E34;
     color: #CDCDCD;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p{
     font-size: 1.2em;
@@ -90,11 +138,16 @@ footer a:hover{
     background-color: #CDCDCD;
     color: #011638;
 }
+social_img{
+    padding-top: 15px;
+}
 main.home-grid{
     color: #011638;
+    box-sizing: border-box;
 }
 img.icon{
     width: 80px;
+    padding-top: 10px;
 }
 img.mountains{
     margin: 0 auto;
