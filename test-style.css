@@ -1,0 +1,139 @@
+body{
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, black, rgb(50, 50, 50));
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgba(51, 51, 51, 0.7);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center; /* Center the text vertically */
+    justify-content: center; /* Center the text horizontally */
+    z-index: 1000; /* Ensure the header is above other elements */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+}
+.links{
+    position: absolute;
+    font-size: 2em;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.links a:hover{
+    color:linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+.header h1{
+    margin: 0;
+    border-radius: 0;
+}
+.topper{
+    width: 100%;
+    height: 500px;
+}
+.rainbow-top{
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    height: 5px;
+    width: 100%;
+    z-index: 1001;
+    position: fixed;
+    align-self: flex-start;
+}
+.main-content{
+    margin-top: 75px; /* Ensure the content is below the header */
+    /* padding: 20px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    place-items: center;
+    background: linear-gradient(to right, rgb(0, 0, 31), rgb(43, 10, 0));
+    border-radius: 50px;
+    position: relative; /* Added to constrain the pseudo-element */
+}
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: -5px; /* control the spread */
+    z-index: -1; /* place the element behind */
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    filter: blur(50px); /* control the blur */
+}
+.bluebox{
+    background: linear-gradient(45deg, #147DF5, #580AFF, #BE0AFF);
+    color: rgb(0, 0, 172);
+    padding: 10px;
+    border-radius: 50px;
+    height: 250px;
+    width: 250px;
+}
+.bluebox:hover{
+    box-shadow: .75em .75em 1em;
+    width: 290px;
+}
+.redbox{
+    background: linear-gradient(45deg, #FF0000, #FF8700, #FFD300);
+    color: rgb(172, 0, 0);
+    padding: 10px;
+    border-radius: 50px;
+    height: 250px;
+    width: 250px;
+}
+.redbox:hover{
+    box-shadow: .75em .75em 1em;
+    width: 290px;
+}
+.greenbox{
+    background: linear-gradient(45deg, #A1FF0A, #0AFF99, #0AEFFF);
+    color: rgb(0, 85, 0);
+    padding: 10px;
+    border-radius: 50px;
+    height: 250px;
+    width: 250px;
+}
+.greenbox:hover{
+    box-shadow: .75em .75em 1em;
+    width: 290px;
+}
+.yellowbox{
+    background: linear-gradient(45deg, #FFD300, #EDEA05, #DEFF0A, #A1FF0A);
+    color: rgb(170, 170, 0);
+    padding: 10px;
+    border-radius: 50px;
+    height: 250px;
+    width: 250px;
+}
+.yellowbox:hover{
+    box-shadow: .75em .75em 1em;
+    width: 290px;
+}
+
+/* 
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        place-items: center;
+    }
+    .bluebox, .redbox, .greenbox, .yellowbox{
+        width: 80%;
+    }
+    
+} */
