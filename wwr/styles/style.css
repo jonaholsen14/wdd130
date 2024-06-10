@@ -213,7 +213,7 @@ footer a:hover{
 social_img{
     padding-top: 15px;
 }
-main.home-grid{
+.home-grid{
     color: #011638;
     box-sizing: border-box;
     display: grid;
