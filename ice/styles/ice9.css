@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+.text{
+    text-align: center;
+}
+.top-p{
+    margin-bottom: 0px;
+    color: #3e5b8a;
+}
+.card{
+    margin: 0, auto;
+    background-color: white;
+    width: 250px;
+    align-self: center;
+    border-radius: 20px;
+}
+.head{
+    margin-top: 0px;
+}
+.header-img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.article{
+    padding: 10px;
+    text-align: center;
+}
+.infocard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #3f5b88;
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    gap: 3px;
+}
+.infocard h2{
+    margin: 0px;
+}
+.infocard p{
+    font-size: 10px;
+    margin-top: 0px;
+}
+/* .sperator{
+    position: absolute;
+    left: 50%; 
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #000;
+} 
+*/
