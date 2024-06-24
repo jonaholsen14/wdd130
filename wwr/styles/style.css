@@ -234,6 +234,7 @@ img.mountains{
 .info{
     background-image: linear-gradient(120deg, #bdc0b5 0%, #96e6a1 100%);
 }
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
